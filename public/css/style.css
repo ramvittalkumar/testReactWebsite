@@ -129,6 +129,10 @@ ul, ol {
     padding-bottom: 120px;
 }
 
+.md-mint-padding {
+    width: 100%;
+}
+
 .sm-padding {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -259,6 +263,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 /*------------------------------------*\
 	Logo
 \*------------------------------------*/
+
+.polylogo {
+    height: 20px;
+    width: 20px;
+}
 
 .navbar-brand {
     padding: 0;
@@ -1061,7 +1070,6 @@ header {
 
 .team .team-content span {
     font-size: 14px;
-    text-transform: uppercase;
     -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }

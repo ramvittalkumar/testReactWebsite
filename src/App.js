@@ -203,16 +203,16 @@ function App() {
     return (
       <div classNameName="App">
 	<header id="home">
-		<div className="bg-img" style={{backgroundImage: "url('./img/background1.jpg')"}}>
-			<div className="overlay"></div>
+		<div className="bg-img" style={{backgroundImage: "url('/config/images/page-bg.jpg')"}}>
+			
 		</div>
 		<nav id="nav" className="navbar nav-transparent">
 			<div className="container">
 				<div className="navbar-header">
 					<div className="navbar-brand">
 						<a href="index.html">
-							<img className="logo" src="img/logo.png" alt="logo" />
-							<img className="logo-alt" src="img/logo-alt.png" alt="logo" />
+							<img className="logo" src="/config/images/logo.png" alt="logo" />
+							<img className="logo-alt" src="/config/images/logo-alt.png" alt="logo" />
 						</a>
 					</div>
 
@@ -252,24 +252,15 @@ function App() {
 
 	</header>
 
-	<div id="about" className="section md-padding">
+	<div id="about" className="section md-padding" style={{backgroundImage: "url('/config/images/page-bg-2.jpg')"}}>
 
 		<div className="container">
 
 			<div className="row">
 
 				<div className="section-header text-center">
-					<h2 className="title">Welcome to Website</h2>
+					<h2 className="title">Welcome to SavePanthers</h2>
 				</div>
-				<div className="col-md-4">
-					<div className="about">
-						<i className="fa fa-cogs"></i>
-						<h3>Fully Customizible</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-						<a href="#">Read more</a>
-					</div>
-				</div>
-
 				<div className="col-md-4">
 					<div className="about">
 						<i className="fa fa-magic"></i>
@@ -278,12 +269,20 @@ function App() {
 						<a href="#">Read more</a>
 					</div>
 				</div>
+				<div className="col-md-4">
+					<div className="about">
+						<i className="fa fa-money"></i>
+						<h3>For A Cause</h3>
+						<p>We mint exclusive Panther NFT collectibles for raising fund</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
 
 				<div className="col-md-4">
 					<div className="about">
-						<i className="fa fa-mobile"></i>
-						<h3>Fully Responsive</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<i className="fa fa-star"></i>
+						<h3>Lottery</h3>
+						<p>Generate random Panther traits metadata and pick lottery winners for participating in lottery using our DApp</p>
 						<a href="#">Read more</a>
 					</div>
 				</div>
@@ -295,89 +294,89 @@ function App() {
 	</div>
 
 
-	<div id="portfolio" className="section md-padding bg-grey">
+	<div id="portfolio" className="section md-padding bg-grey" style={{backgroundImage: "url('/config/images/page-bg-3.jpg')"}}>
 
 		<div className="container">
 
 			<div className="row">
 
 				<div className="section-header text-center">
-					<h2 className="title">Featured Works</h2>
+					<h2 className="title">Featured Panthers</h2>
 				</div>
 
 				<div className="col-md-4 col-xs-6 work">
-					<img className="img-responsive" src="./img/work1.jpg" alt="" />
+					<img className="img-responsive" src="/config/images/panther-img/64.png" alt="" />
 					<div className="overlay"></div>
 					<div className="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
+						<span>Panther NFT Collection #64</span>
+						<h3>Collectables to create awareness on black panther conservation</h3>
 						<div className="work-link">
-							<a href="#"><i className="fa fa-external-link"></i></a>
-							<a className="lightbox" href="./img/work1.jpg"><i className="fa fa-search"></i></a>
+							<a target="_blank" rel="noopener noreferrer" href="https://gateway.pinata.cloud/ipfs/QmRX3wkqm1Jz1yxrUDth7A7CpQ8oPUsPuNtJXWo3Kh38MK/64.json"><i className="fa fa-external-link"></i></a>
+							<a className="lightbox" target="_blank" rel="noopener noreferrer" href="/config/images/panther-img/64.png"><i className="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
 
 				<div className="col-md-4 col-xs-6 work">
-					<img className="img-responsive" src="./img/work2.jpg" alt="" />
+					<img className="img-responsive" src="/config/images/panther-img/67.png" alt="" />
 					<div className="overlay"></div>
 					<div className="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
+						<span>Panther NFT Collection #67</span>
+						<h3>Collectables to create awareness on black panther conservation</h3>
 						<div className="work-link">
-							<a href="#"><i className="fa fa-external-link"></i></a>
-							<a className="lightbox" href="./img/work2.jpg"><i className="fa fa-search"></i></a>
+						<a target="_blank" rel="noopener noreferrer" href="https://gateway.pinata.cloud/ipfs/QmRX3wkqm1Jz1yxrUDth7A7CpQ8oPUsPuNtJXWo3Kh38MK/67.json"><i className="fa fa-external-link"></i></a>
+							<a className="lightbox" target="_blank" rel="noopener noreferrer" href="/config/images/panther-img/67.png"><i className="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
 
 				<div className="col-md-4 col-xs-6 work">
-					<img className="img-responsive" src="./img/work3.jpg" alt="" />
+					<img className="img-responsive" src="/config/images/panther-img/69.png" alt="" />
 					<div className="overlay"></div>
 					<div className="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
+						<span>Panther NFT Collection #69</span>
+						<h3>Collectables to create awareness on black panther conservation</h3>
 						<div className="work-link">
-							<a href="#"><i className="fa fa-external-link"></i></a>
-							<a className="lightbox" href="./img/work3.jpg"><i className="fa fa-search"></i></a>
+						<a target="_blank" rel="noopener noreferrer" href="https://gateway.pinata.cloud/ipfs/QmRX3wkqm1Jz1yxrUDth7A7CpQ8oPUsPuNtJXWo3Kh38MK/69.json"><i className="fa fa-external-link"></i></a>
+							<a className="lightbox" target="_blank" rel="noopener noreferrer" href="/config/images/panther-img/69.png"><i className="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
 
 				<div className="col-md-4 col-xs-6 work">
-					<img className="img-responsive" src="./img/work4.jpg" alt="" />
+					<img className="img-responsive" src="/config/images/panther-img/71.png" alt="" />
 					<div className="overlay"></div>
 					<div className="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
+						<span>Panther NFT Collection #71</span>
+						<h3>Collectables to create awareness on black panther conservation</h3>
 						<div className="work-link">
-							<a href="#"><i className="fa fa-external-link"></i></a>
-							<a className="lightbox" href="./img/work4.jpg"><i className="fa fa-search"></i></a>
+						<a target="_blank" rel="noopener noreferrer" href="https://gateway.pinata.cloud/ipfs/QmRX3wkqm1Jz1yxrUDth7A7CpQ8oPUsPuNtJXWo3Kh38MK/71.json"><i className="fa fa-external-link"></i></a>
+							<a className="lightbox" target="_blank" rel="noopener noreferrer" href="/config/images/panther-img/71.png"><i className="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
 				<div className="col-md-4 col-xs-6 work">
-					<img className="img-responsive" src="./img/work5.jpg" alt="" />
+					<img className="img-responsive" src="/config/images/panther-img/77.png" alt="" />
 					<div className="overlay"></div>
 					<div className="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
+						<span>Panther NFT Collection #77</span>
+						<h3>Collectables to create awareness on black panther conservation</h3>
 						<div className="work-link">
-							<a href="#"><i className="fa fa-external-link"></i></a>
-							<a className="lightbox" href="./img/work5.jpg"><i className="fa fa-search"></i></a>
+						<a target="_blank" rel="noopener noreferrer" href="https://gateway.pinata.cloud/ipfs/QmRX3wkqm1Jz1yxrUDth7A7CpQ8oPUsPuNtJXWo3Kh38MK/77.json"><i className="fa fa-external-link"></i></a>
+							<a className="lightbox" target="_blank" rel="noopener noreferrer" href="/config/images/panther-img/77.png"><i className="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
 
 				<div className="col-md-4 col-xs-6 work">
-					<img className="img-responsive" src="./img/work6.jpg" alt="" />
+					<img className="img-responsive" src="/config/images/panther-img/87.png" alt="" />
 					<div className="overlay"></div>
 					<div className="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
+						<span>Panther NFT Collection #87</span>
+						<h3>Collectables to create awareness on black panther conservation</h3>
 						<div className="work-link">
-							<a href="#"><i className="fa fa-external-link"></i></a>
-							<a className="lightbox" href="./img/work6.jpg"><i className="fa fa-search"></i></a>
+						<a target="_blank" rel="noopener noreferrer" href="https://gateway.pinata.cloud/ipfs/QmRX3wkqm1Jz1yxrUDth7A7CpQ8oPUsPuNtJXWo3Kh38MK/87.json"><i className="fa fa-external-link"></i></a>
+							<a className="lightbox" target="_blank" rel="noopener noreferrer" href="/config/images/panther-img/87.png"><i className="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
@@ -395,12 +394,14 @@ function App() {
 			<div className="row">
 				<div className="col-md-6">
 					<div className="section-header">
-						<h2 className="title">Why Choose Us</h2>
+						<h2 className="title">We Promise. You Promise.</h2>
 					</div>
-					<p>Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.</p>
+					<p>Panthers are listed as an engandered species under the Endangered Species Act. Their protection and preservation is of utmost importance.
+						We wanted to bring attention and create awareness of their conservation among our community. 
+					</p>
 					<div className="feature">
 						<i className="fa fa-check"></i>
-						<p>Quis varius quam quisque id diam vel quam elementum.</p>
+						<p>Mint exclusive NFT collectibles for raising fund to this cause</p>
 					</div>
 					<div className="feature">
 						<i className="fa fa-check"></i>
@@ -412,7 +413,7 @@ function App() {
 					</div>
 					<div className="feature">
 						<i className="fa fa-check"></i>
-						<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium.</p>
+						<p>We provide Panther lottery process which generate random panter traits metadata and picks lottery winners</p>
 					</div>
 				</div>
 
@@ -445,16 +446,16 @@ function App() {
 				<div className="col-sm-3 col-xs-6">
 					<div className="number">
 						<i className="fa fa-users"></i>
-						<h3 className="white-text"><span className="counter">451</span></h3>
-						<span className="white-text">Happy clients</span>
+						<h3 className="white-text"><span className="counter">{CONFIG.MAX_SUPPLY}</span></h3>
+						<span className="white-text">No. Of Collectables</span>
 					</div>
 				</div>
 
 				<div className="col-sm-3 col-xs-6">
 					<div className="number">
 						<i className="fa fa-trophy"></i>
-						<h3 className="white-text"><span className="counter">12</span></h3>
-						<span className="white-text">Awards won</span>
+						<h3 className="white-text"><span className="counter">3</span></h3>
+						<span className="white-text">Team Members</span>
 					</div>
 				</div>
 
@@ -479,7 +480,9 @@ function App() {
 
 	</div>
 
-	<div id="minting" className="section md-padding">
+
+	<div id="minting" className="section md-mint-padding" 
+	style={{backgroundImage: "url('/config/images/bg.png')"}}>
 
 		<div className="container">
 		<s.Screen>
@@ -487,7 +490,7 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
+        
       >
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         <s.SpacerSmall />
@@ -501,10 +504,10 @@ function App() {
             jc={"center"}
             ai={"center"}
             style={{
-              backgroundColor: "var(--accent)",
+              backgroundColor: "#004d11",
               padding: 24,
               borderRadius: 24,
-              border: "4px dashed var(--secondary)",
+              border: "4px dashed #ebbd05ee",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
@@ -513,7 +516,7 @@ function App() {
                 textAlign: "center",
                 fontSize: 50,
                 fontWeight: "bold",
-                color: "var(--accent-text)",
+                color: "#ffffff",
               }}
             >
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
@@ -521,7 +524,7 @@ function App() {
             <s.TextDescription
               style={{
                 textAlign: "center",
-                color: "var(--primary-text)",
+                color: "#ebbd05ee",
               }}
             >
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
@@ -532,31 +535,31 @@ function App() {
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
                 <s.TextTitle
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center", color: "#ffffff" }}
                 >
                   The sale has ended.
                 </s.TextTitle>
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center", color: "#ffffff" }}
                 >
                   You can still find {CONFIG.NFT_NAME} on
                 </s.TextDescription>
                 <s.SpacerSmall />
-                <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
+                <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>				  
                   {CONFIG.MARKETPLACE}
                 </StyledLink>
               </>
             ) : (
               <>
                 <s.TextTitle
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center", color: "#ffffff" }}
                 >
                   1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center", color: "#ffffff" }}
                 >
                   Excluding gas fees.
                 </s.TextDescription>
@@ -567,13 +570,18 @@ function App() {
                     <s.TextDescription
                       style={{
                         textAlign: "center",
-                        color: "var(--accent-text)",
+                        color: "#ffffff",
                       }}
                     >
                       Connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
                     <s.SpacerSmall />
                     <StyledButton
+					  style={{
+							textAlign: "center",
+							color: "#ffffff",
+							backgroundColor: "#ebbd05ee"
+						}}
                       onClick={(e) => {
                         e.preventDefault();
                         dispatch(connect());
@@ -588,7 +596,7 @@ function App() {
                         <s.TextDescription
                           style={{
                             textAlign: "center",
-                            color: "var(--accent-text)",
+                            color: "#ffffff",
                           }}
                         >
                           {blockchain.errorMsg}
@@ -601,7 +609,7 @@ function App() {
                     <s.TextDescription
                       style={{
                         textAlign: "center",
-                        color: "var(--accent-text)",
+                        color: "#ffffff",
                       }}
                     >
                       {feedback}
@@ -622,7 +630,7 @@ function App() {
                       <s.TextDescription
                         style={{
                           textAlign: "center",
-                          color: "var(--accent-text)",
+                          color: "#ffffff",
                         }}
                       >
                         {mintAmount}
@@ -667,7 +675,7 @@ function App() {
           <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--primary-text)",
+              color: "#f5efef",
             }}
           >
             Please make sure you are connected to the right network (
@@ -678,7 +686,7 @@ function App() {
           <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--primary-text)",
+              color: "#f5efef",
             }}
           >
             We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
@@ -693,7 +701,7 @@ function App() {
 	</div>
 
 
-	<div id="testimonial" className="section md-padding">
+	{/*<div id="testimonial" className="section md-padding">
 
 		<div className="bg-img" style={{backgroundImage: "url('./img/background3.jpg')"}}>
 			<div className="overlay"></div>
@@ -731,11 +739,11 @@ function App() {
 
 		</div>
 
-	</div>
+		</div>*/}
 
-	<div id="team" className="section md-padding">
+	<div id="team" className="section md-padding" style={{backgroundImage: "url('/config/images/page-bg-4.jpg')"}}>
 
-		<div className="container">
+		<div className="container"> 
 
 			<div className="row">
 
@@ -746,18 +754,17 @@ function App() {
 				<div className="col-sm-4">
 					<div className="team">
 						<div className="team-img">
-							<img className="img-responsive" src="./img/team1.jpg" alt="" />
+							<img className="img-responsive" src="/config/images/team/ProfilePic-RamVittal.jpg" alt="" />
 							<div className="overlay">
 								<div className="team-social">
-									<a href="#"><i className="fa fa-facebook"></i></a>
-									<a href="#"><i className="fa fa-google-plus"></i></a>
-									<a href="#"><i className="fa fa-twitter"></i></a>
+								<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ram-vittal-kumar-k-83018358"><i className="fa fa-linkedin"></i></a>
+									<a target="_blank" rel="noopener noreferrer" href="https://github.com/ramvittalkumar"><i className="fa fa-github"></i></a>
 								</div>
 							</div>
 						</div>
 						<div className="team-content">
-							<h3>John Doe</h3>
-							<span>Web Designer</span>
+							<h3>Ram Vittal</h3>
+							<span>Cloud Engineer<br/><i>Sectra Imaging IT Solutions</i></span>
 						</div>
 					</div>
 				</div>
@@ -765,18 +772,17 @@ function App() {
 				<div className="col-sm-4">
 					<div className="team">
 						<div className="team-img">
-							<img className="img-responsive" src="./img/team2.jpg" alt="" />
+							<img className="img-responsive" src="/config/images/team/ProfilePic-KaushikMurali.jpg" alt="" />
 							<div className="overlay">
 								<div className="team-social">
-									<a href="#"><i className="fa fa-facebook"></i></a>
-									<a href="#"><i className="fa fa-google-plus"></i></a>
-									<a href="#"><i className="fa fa-twitter"></i></a>
+									<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kaushik-murali-06625859/"><i className="fa fa-linkedin"></i></a>
+									<a target="_blank" rel="noopener noreferrer" href="https://github.com/kaushikmrl"><i className="fa fa-github"></i></a>
 								</div>
 							</div>
 						</div>
 						<div className="team-content">
-							<h3>John Doe</h3>
-							<span>Web Designer</span>
+							<h3>Kaushik Murali</h3>
+							<span>Project head<br/><i>Orai AI speech coach app</i></span>
 						</div>
 					</div>
 				</div>
@@ -784,18 +790,17 @@ function App() {
 				<div className="col-sm-4">
 					<div className="team">
 						<div className="team-img">
-							<img className="img-responsive" src="./img/team3.jpg" alt="" />
+							<img className="img-responsive" src="/config/images/team/ProfilePic-SajithMohideen.jpg" alt="" />
 							<div className="overlay">
 								<div className="team-social">
-									<a href="#"><i className="fa fa-facebook"></i></a>
-									<a href="#"><i className="fa fa-google-plus"></i></a>
-									<a href="#"><i className="fa fa-twitter"></i></a>
+								<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sajith-mohideen-695628b8"><i className="fa fa-linkedin"></i></a>
+									<a target="_blank" rel="noopener noreferrer" href="https://github.com/SajithMohideen"><i className="fa fa-github"></i></a>
 								</div>
 							</div>
 						</div>
 						<div className="team-content">
-							<h3>John Doe</h3>
-							<span>Web Designer</span>
+							<h3>Sajith Mohideen</h3>
+							<span>Sr. Software Engineer<br/><i>Global Soft Systems Inc</i></span>
 						</div>
 					</div>
 				</div>
@@ -813,41 +818,30 @@ function App() {
 			<div className="row">
 
 				<div className="section-header text-center">
-					<h2 className="title">Get in touch</h2>
+					<h2 className="title">Exclusive Mega Lottery</h2>
+					<span>Power up your chance to win exclusive Panther NFTs. Will you be our next lucky winner?</span>
 				</div>
-				<div className="col-sm-4">
-					<div className="contact">
-						<i className="fa fa-phone"></i>
-						<h3>Phone</h3>
-						<p>512-421-3940</p>
-					</div>
-				</div>
-
-				<div className="col-sm-4">
-					<div className="contact">
-						<i className="fa fa-envelope"></i>
-						<h3>Email</h3>
-						<p>email@support.com</p>
-					</div>
-				</div>
-
-				<div className="col-sm-4">
-					<div className="contact">
-						<i className="fa fa-map-marker"></i>
-						<h3>Address</h3>
-						<p>1739 Bubby Drive</p>
-					</div>
-				</div>
-
 				<div className="col-md-8 col-md-offset-2">
 					<form className="contact-form">
-						<input type="text" className="input" placeholder="Name" />
-						<input type="email" className="input" placeholder="Email" />
-						<input type="text" className="input" placeholder="Subject" />
-						<textarea className="input" placeholder="Message"></textarea>
-						<button className="main-btn">Send message</button>
+						<input type="text" className="input" placeholder="Wallet Address" />
+						<StyledButton
+						style={{
+								textAlign: "center",
+								color: "#FFF",
+								backgroundColor: "#6195FF"
+							}}
+						onClick={(e) => {
+							e.preventDefault();
+							dispatch(connect());
+							getData();
+						}}
+						>
+						Play Now!
+						</StyledButton>
 					</form>
 				</div>
+
+				
 
 			</div>
 
@@ -862,22 +856,20 @@ function App() {
 
 			<div className="row">
 
-				<div className="col-md-12">
+				<div className="col-md-12"> 
 
-					<div className="footer-logo">
-						<a href="index.html"><img src="img/logo-alt.png" alt="logo" /></a>
+					<div class="bg-primary-darker p-5 text-center w-full text-white">
+						<a target="_blank" href="https://polygon.technology" rel="noreferrer">
+							<span class="text-md block flex items-center justify-center"> <img src="/config/images/polygon.da7b877d.svg" className="polylogo" alt=""/> Powered by Polygon</span>
+						</a><br/>
+						<span class="text-xs">SavePanther is in no way affiliated with HashLips Art Engine</span>
 					</div>
 
-					<ul className="footer-follow">
-						<li><a href="#"><i className="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i className="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i className="fa fa-google-plus"></i></a></li>
-						<li><a href="#"><i className="fa fa-instagram"></i></a></li>
-						<li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-						<li><a href="#"><i className="fa fa-youtube"></i></a></li>
-					</ul>
+					{/*<div className="footer-logo">
+						<a href="index.html"><img src="/config/images/logo-alt.png" alt="logo" /></a>
+					</div>*/}
 					<div className="footer-copyright">
-						<p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+						<p>Copyright © 2021. All Rights Reserved.</p>
 					</div>
 
 				</div>
